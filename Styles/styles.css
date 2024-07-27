@@ -1,0 +1,35 @@
+/* common shared styles */
+/* 1. google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 2. all content width */
+.content-width {
+    font-family: "Azeret Mono", monospace;
+    border: 2px solid red;
+    max-width: 1440px;
+    margin: 32px auto;
+}
+
+/* 3. all buttons*/
+.primary-btn {
+    font-size: 24px;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 16px 24px;
+    background-color: white;
+    opacity: 80%;
+    line-height: 0%;
+}
+
+/* 1. navigation related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>h4 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 0%;
+}
