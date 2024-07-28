@@ -22,17 +22,22 @@
     line-height: 0%;
 }
 
-/* 4. all paragraph */
+/* 4. all section first paragraph */
 .primary-text {
     font-size: 24px;
     opacity: 70%;
     line-height: 36px;
-}
-
-/* 5. some paragraph width */
-.primary-text-width {
     width: 85%;
     margin: 0 auto;
+    text-align: center;
+}
+
+/* 5. all section first heading */
+.primary-heading {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 24px;
 }
 
 /* 1. navigation related styles */
@@ -66,4 +71,44 @@ nav>h4 {
     background-color: black;
     color: white;
     margin-top: 42px;
+}
+
+/* 3. main section related styles */
+/* 1.1 Why Web Development?? Section Styles */
+#why-web-development {
+    border-radius: 16px;
+    background: rgba(220, 220, 220, 0.571);
+    margin: 64px auto;
+    padding: 32px;
+}
+
+.why-web-development-sub-section {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    width: 85%;
+    border-radius: 16px;
+    background: white;
+    margin: 40px auto;
+}
+
+.why-web-development-sub-section>div {
+    padding: 48px;
+}
+
+.why-web-development-sub-section>div>h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin: 0 auto;
+}
+
+.why-web-development-sub-section>div>p {
+    font-size: 20px;
+    opacity: 70%;
+}
+
+.why-web-development-sub-section>div>button {
+    border-radius: 0;
+    line-height: normal;
 }
