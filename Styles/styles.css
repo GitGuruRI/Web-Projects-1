@@ -190,3 +190,51 @@ nav>h4 {
 .my-next-target-content>div>h4 {
     margin-top: 0;
 }
+
+/* 1.5 I Need Support Section Styles */
+#i-need-support {
+    background-image: url('../Assets/handshake.jpg');
+    text-align: center;
+    height: 400px;
+    border-radius: 16px;
+    background-size: 1440px 500px;
+}
+#i-need-support>div {
+    padding: 64px;
+    margin-top: 32px;
+}
+#i-need-support>div>h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 0%;
+    color: white;
+}
+
+#i-need-support>div>p {
+    font-size: 18px;
+    opacity: 70%;
+    color: white;
+}
+
+.type-message {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+#text {
+    padding: 24px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 30%;
+}
+
+#submit {
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
