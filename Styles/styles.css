@@ -5,7 +5,6 @@
 /* 2. all content width */
 .content-width {
     font-family: "Azeret Mono", monospace;
-    border: 2px solid red;
     max-width: 1440px;
     margin: 32px auto;
 }
@@ -38,6 +37,7 @@
     font-weight: 800;
     text-align: center;
     line-height: 24px;
+    margin-top: 96px;
 }
 
 /* 1. navigation related styles */
@@ -79,6 +79,7 @@ nav>h4 {
     border-radius: 16px;
     background: rgba(220, 220, 220, 0.571);
     margin: 64px auto;
+    padding: 32px 0;
 }
 
 .why-web-development-sub-section {
@@ -198,11 +199,14 @@ nav>h4 {
     height: 400px;
     border-radius: 16px;
     background-size: 1440px 500px;
+    margin-top: 96px;
 }
+
 #i-need-support>div {
     padding: 64px;
     margin-top: 32px;
 }
+
 #i-need-support>div>h3 {
     font-size: 40px;
     font-weight: 700;
@@ -237,4 +241,23 @@ nav>h4 {
     border-radius: 8px;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* 4. footer section styles */
+footer {
+    background: rgba(220, 220, 220, 0.571);
+    margin-top: 80px;
+    margin-bottom: -30px;
+}
+
+footer>div {
+    display: flex;
+    padding: 24px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer>div>p {
+    font-size: 24px;
+    font-weight: 600;
 }
